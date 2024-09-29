@@ -2,10 +2,11 @@
   "name": "receba-network",
   "version": "1.0.0",
   "description": "A simple social network where users can only post 'Receba'",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "nodemon server.js"
+    "dev": "nodemon index.js",
+    "build": "nodemon index.js",
+    "start": "node index.js"
   },
   "keywords": [
     "receba",
